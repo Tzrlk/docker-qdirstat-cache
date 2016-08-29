@@ -1,0 +1,20 @@
+= Docker: qdirstat cache
+:author: Peter Cummuskey
+:email: peterc@aetheric.co.nz
+:toc:
+:toc-placement: macro
+
+image:https://travis-ci.org/tzrlk/docker-qdirstat-cache.svg?branch=master["Build Status", link="https://travis-ci.org/tzrlk/docker-qdirstat-cache"]
+image:https://img.shields.io/github/release/tzrlk/docker-qdirstat-cache.svg?maxAge=2592000&label=latest%20release["Latest Release", link="https://github.com/tzrlk/docker-qdirstat-cache/releases/latest"]
+
+A docker image to make running qdirstat's cache creation script portable.
+
+toc::[]
+
+= Usage
+
+Probably something like:
+
+	docker run tzlk/qdirstat-cache
+
+
